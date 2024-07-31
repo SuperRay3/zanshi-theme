@@ -1,0 +1,21 @@
+{
+  "name": "zanshi-theme",
+  "displayName": "ZanShi Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "zanshi",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zanshi-color-theme.json"
+      }
+    ]
+  }
+}
